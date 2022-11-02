@@ -1,0 +1,103 @@
+body{
+    background-color:aliceblue;
+}
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height:65px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0 15px;
+
+
+}
+.brand img{
+    width:50px;
+    padding:15px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.Holder{
+    min-height: 71vh;
+    background-color: black;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    width:75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding:30px;
+    background-image:url('Headphones.jfif');
+}
+.Lower{
+    position:sticky;
+    height:100px;
+    background-color:black; 
+    bottom:0;
+    color:white;
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+#progressbar{
+    width:80vw;
+    cursor: pointer;
+}
+.Item{
+    height:50px;
+    display:flex;
+    background-color:white;
+    width: 100%;
+    color:black;
+    margin:12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.Item img{
+    width:50px;
+    margin:0 23px;
+    border-radius: 20px;
+}
+.ItemHolder{
+    margin-top: 70px;
+}
+.Tstamp{
+    margin:0 23px;
+}
+
+.Tstamp i{
+    cursor: pointer;
+}
+.Songinfo{
+    position:absolute;
+    left:10vw;
+}
+
+.Songinfo img{
+    width:50px;
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+}
